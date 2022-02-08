@@ -1,0 +1,12 @@
+{
+    "name": "autosearch",
+    "version": "1.0.0",
+    "main": "app.js",
+    "repository": "https://github.com/lebrancconvas/Auto-Searching.git",
+    "author": "lebrancconvas <lebrancconvas@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "nodemon": "^2.0.15",
+        "puppeteer": "^13.2.0"
+    }
+}
