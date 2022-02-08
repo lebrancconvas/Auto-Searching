@@ -4,7 +4,7 @@ const YoutubeSearching = require('./src/YoutubeSearching');
 const App = async() => {
     try {
         console.log("Puppeteer is preparing to work.");
-        const response = await YoutubeSearching();
+        const response = await GoogleSearching();
         if (response !== undefined) {
             console.log(response);
         } else {
